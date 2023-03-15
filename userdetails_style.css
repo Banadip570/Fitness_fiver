@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding-right: 200px;
+    text-decoration: none;
+    text-align: center;
+    background: url("Gym2.jpg");
+    background-size:cover;
+    padding-bottom: 10px;
+}
+
+div.main3{
+    width:500px;
+    margin:50px auto 0px auto;
+}
+div.udetails{
+    text-align: left;
+    background-color: rgba(158, 217, 239, 0.935);
+    width :155%;
+    font-size :18px;
+    border-radius: 20px;
+    border:1px solid rgb(6, 159, 36);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.58);
+}
+
+
+form#register{
+    margin: 50px;
+}
+input#userfname,input#userlname,input#placeholder{
+    width: 199px;
+    padding:3px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid;
+}
+input#useraddress,input#placeholder{
+    width: 663px;
+    padding:3px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+input#userphone,input#userage,input#placeholder{
+    width: 210px;
+    padding:3px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+input#weight,input#height{
+    width: 207px;
+    padding:3px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+input#submit{
+    width:100px;
+    padding :6px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+label{
+    font-family:sans-serif;
+}
+h2{
+    background-color:rgb(87, 241, 255);
+    border:1px solid rgb(6, 159, 36);
+    text-align:center;
+    padding:20px;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 20px;
+    text-align:left;
+    padding:10px;
+    font-family: sans-serif;
+}

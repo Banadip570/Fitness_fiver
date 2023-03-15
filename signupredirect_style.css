@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    background: url("Gym2.jpg");
+    background-size:cover;
+    padding-bottom: 10px;
+}
+
+div.main{
+    width:300px;
+    margin:50px auto 0px auto;
+    padding-right: 70px;
+}
+div.redirect1{
+    text-align: left;
+    background-color: rgba(158, 217, 239, 0.935);
+    width :400px;
+    font-size :18px;
+    border-radius: 20px;
+    border:1px solid rgb(6, 159, 36);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.58);
+}
+h2
+{
+    text-align:center;
+    padding:10px;
+    font-family: sans-serif;
+    background-color:rgb(87, 241, 255);
+    border:1px solid rgb(6, 159, 36);
+}
+
+h3
+{
+    text-align:center;
+    padding:10px;
+    font-family: sans-serif;
+}

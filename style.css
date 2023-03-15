@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.firstsection{
+    height: 100vh;
+}
+.background{
+    background: rgba(108, 105, 109, 0.74) url(../img/ban.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.fhalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shalf{
+    width: 30%;
+}
+.shalf img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.textcenter{
+    text-align: center;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(34, 34, 34);
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(175, 173, 173);
+  }
